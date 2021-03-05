@@ -1,57 +1,36 @@
 {
-  "posts": [
+  "todo": [
     {
       "id": 1,
-      "title": "Hello World",
-      "body": "Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+      "task": "React",
+      "status": true
     },
     {
       "id": 2,
-      "title": "Eum Et Est Occaecati",
-      "body": "Recusandae consequuntur expedita et cum\nreprehenderit ut quas totam\nautem sunt rem eveniet architecto"
+      "task": "Redux",
+      "status": true
     },
     {
-      "id": 1,
-      "title": "Hello World",
-      "body": "Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+      "id": 3,
+      "task": "React-Redux",
+      "status": true
     },
     {
-      "id": 2,
-      "title": "Eum Et Est Occaecati",
-      "body": "Recusandae consequuntur expedita et cum\nreprehenderit ut quas totam\nautem sunt rem eveniet architecto"
+      "id": 4,
+      "task": "JavaScript",
+      "status": true
     },
     {
-      "id": 1,
-      "title": "Hello World",
-      "body": "Quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-    },
-    {
-      "id": 2,
-      "title": "Eum Et Est Occaecati",
-      "body": "Recusandae consequuntur expedita et cum\nreprehenderit ut quas totam\nautem sunt rem eveniet architecto"
+      "id": 5,
+      "task": "HTML",
+      "status": true
     }
   ],
-  "Todo" : [
+  "users": [
     {
       "id": 1,
-      "status": "complete",
-      "task": "Clean House"
+      "email": "admin@mail.com",
+      "password": "admin123"
     }
-  ],
-  "Testing" : {
-    "app1" : [
-      {
-        "id": 1,
-        "status": "complete",
-        "task": "Clean House"
-      }
-    ],
-    "app2": [
-      {
-        "id": 1,
-        "status": "complete",
-        "task": "Clean House"
-      }
-    ]
-  }
+  ]
 }
