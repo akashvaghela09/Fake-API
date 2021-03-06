@@ -2,28 +2,39 @@
   "todo": [
     {
       "id": 1,
-      "task": "React",
-      "status": true
+      "title": "Todo task",
+      "description": "any random description",
+      "sub_task": {
+        "any sub task 1" : false,
+        "any sub task 2" : false,
+        "any sub task 3": true
+      },
+      "category": "Todo",
+      "tags": ["personal", "official"]
     },
     {
       "id": 2,
-      "task": "Redux",
-      "status": true
+      "title": "In Progress Task",
+      "description": "any random description",
+      "sub_task": {
+        "any sub task 1" : false,
+        "any sub task 2" : false,
+        "any sub task 3": true
+      },
+      "category": "In Progress",
+      "tags": ["others"]
     },
     {
       "id": 3,
-      "task": "React-Redux",
-      "status": true
-    },
-    {
-      "id": 4,
-      "task": "JavaScript",
-      "status": true
-    },
-    {
-      "id": 5,
-      "task": "HTML",
-      "status": true
+      "title": "Done Category Task",
+      "description": "any random description",
+      "sub_task": {
+        "any sub task 1" : false,
+        "any sub task 2" : false,
+        "any sub task 3": true
+      },
+      "category": "Done",
+      "tags": ["personal"]
     }
   ],
   "users": [
