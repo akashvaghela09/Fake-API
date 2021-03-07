@@ -1,40 +1,70 @@
 {
   "todo": [
     {
-      "id": 1,
-      "title": "Todo task",
-      "description": "any random description",
-      "sub_task": {
-        "any sub task 1" : false,
-        "any sub task 2" : false,
-        "any sub task 3": true
-      },
+      "title": "Dummy Task 1",
+      "description": "random description",
       "category": "Todo",
-      "tags": ["personal", "official"]
+      "tags": {
+        "personal": true,
+        "official": true,
+        "others": false
+      },
+      "sub_task": [
+        {
+          "123": false
+        },
+        {
+          "22": false
+        },
+        {
+          "121231": false
+        }
+      ],
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "In Progress Task",
-      "description": "any random description",
-      "sub_task": {
-        "any sub task 1" : false,
-        "any sub task 2" : false,
-        "any sub task 3": true
-      },
+      "title": "dummy 2",
+      "description": "aasd asdasd asdasdsada ",
       "category": "In Progress",
-      "tags": ["others"]
+      "tags": {
+        "personal": false,
+        "official": true,
+        "others": false
+      },
+      "sub_task": [
+        {
+          "sss": false
+        },
+        {
+          "asas": false
+        },
+        {
+          "aaa": false
+        }
+      ],
+      "id": 2
     },
     {
-      "id": 3,
-      "title": "Done Category Task",
-      "description": "any random description",
-      "sub_task": {
-        "any sub task 1" : false,
-        "any sub task 2" : false,
-        "any sub task 3": true
-      },
+      "title": "Task 2",
+      "description": "asd adas efse fwf ",
       "category": "Done",
-      "tags": ["personal"]
+      "tags": {
+        "personal": true,
+        "official": false,
+        "others": false
+      },
+      "sub_task": [
+        {
+          "rtyr": false
+        },
+        {
+          "wer": false
+        },
+        {
+          "234fwef": false
+        }
+      ],
+      "id": 3
     }
   ],
   "users": [
