@@ -9,21 +9,15 @@
         "official": true,
         "others": false
       },
-      "sub_task": [
-        {
-          "123": false
+      "sub_task": {
+          "have dinner": false,
+          "keep fan off": false,
+          "had dinner": false
         },
-        {
-          "22": false
-        },
-        {
-          "121231": false
-        }
-      ],
       "id": 1
     },
     {
-      "title": "dummy 2",
+      "title": "Dummy Task 2",
       "description": "aasd asdasd asdasdsada ",
       "category": "In Progress",
       "tags": {
@@ -31,21 +25,15 @@
         "official": true,
         "others": false
       },
-      "sub_task": [
-        {
-          "sss": false
-        },
-        {
-          "asas": false
-        },
-        {
-          "aaa": false
-        }
-      ],
+      "sub_task": {
+        "have dinner": false,
+        "keep fan off": false,
+        "had dinner": false
+      },
       "id": 2
     },
     {
-      "title": "Task 2",
+      "title": "Dummy Task 3",
       "description": "asd adas efse fwf ",
       "category": "Done",
       "tags": {
@@ -53,17 +41,11 @@
         "official": false,
         "others": false
       },
-      "sub_task": [
-        {
-          "rtyr": false
-        },
-        {
-          "wer": false
-        },
-        {
-          "234fwef": false
-        }
-      ],
+      "sub_task": {
+        "have dinner": false,
+        "keep fan off": false,
+        "had dinner": false
+      },
       "id": 3
     }
   ],
