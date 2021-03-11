@@ -1844,5 +1844,55 @@
       "article": "Nasa's Perseverance rover begins its exploration of Mars",
       "published_at": "25/02/2021"
     }
+  ],
+  "ApiAuth": [
+    {
+      "name": "Bhairav Reddy",
+      "email": "tbhairavreddY@gmail.com",
+      "password": "bhai",
+      "id": "BDHHJHBXJH8582412",
+      "dob": "10/05/1997",
+      "category": "premimum"
+    },
+    {
+      "name": "Akash",
+      "email": "akash@gmail.com",
+      "password": "akash",
+      "id": "BDHHJHBXJH8247856",
+      "dob": "20/07/1995",
+      "category": "normal"
+    },
+    {
+      "name": "Pranith",
+      "email": "pranith@gmail.com",
+      "password": "pranith",
+      "id": "BDHHJHBXJH5822412",
+      "dob": "10/05/1997",
+      "category": "normal"
+    },
+    {
+      "name": "Abhinav",
+      "email": "abhinav@gmail.com",
+      "password": "abhinav",
+      "id": "BDHHJHBX252369412",
+      "dob": "10/05/1997",
+      "category": "normal"
+    },
+    {
+      "name": "Priyanka",
+      "email": "priyanka@gmail.com",
+      "password": "priyanka",
+      "id": "BDHHJHBXJH585412",
+      "dob": "10/05/1997",
+      "category": "premimum"
+    },
+    {
+      "name": "raja",
+      "dob": "2021-03-04",
+      "email": "raja@gmail.com",
+      "password": "raja",
+      "category": "admin",
+      "id": "z6HnfvS"
+    }
   ]
 }
