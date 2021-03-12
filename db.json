@@ -1894,5 +1894,49 @@
       "category": "admin",
       "id": "z6HnfvS"
     }
+  ],
+  "reels": [
+    {
+      "id": 1,
+      "category": "ENVIRONMENT",
+      "title": "The tiny nation waging war on plastic",
+      "thumbnail": "https://ichef.bbci.co.uk/news/800/cpsprodpb/F503/production/_116932726_plastic.jpg",
+      "video_url": "https://youtu.be/pB9CnjVI36U"
+    },
+    {
+      "id": 2,
+      "category": "MENTAL HEALTH",
+      "title": "A simple way to improve your mind",
+      "thumbnail": "https://images.unsplash.com/photo-1592895792095-85fa785192a9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+      "video_url": "https://youtu.be/SgMNqBNeFyI"
+    },
+    {
+      "id": 3,
+      "category": "FOOD",
+      "title": "The Truth about eating eggs",
+      "thumbnail": "https://images.unsplash.com/photo-1516448620398-c5f44bf9f441?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80",
+      "video_url": "https://youtu.be/GSXGyw4Sq4I"
+    },
+    {
+      "id": 4,
+      "category": "WORLD",
+      "title": "Surprising images from North Korea",
+      "thumbnail": "https://images.unsplash.com/photo-1604360898901-ddcbeafab6ee?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
+      "video_url": "https://youtu.be/HhAtTKA1hks"
+    },
+    {
+      "id": 5,
+      "category": "TRAVEL",
+      "title": "The Remote visa-free island at the top of the world",
+      "thumbnail": "https://images.unsplash.com/photo-1590153739486-208b4dbb473c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=781&q=80",
+      "video_url": "https://youtu.be/FPbZZ1qIozk"
+    },
+    {
+      "id": 6,
+      "category": "HYGIENE",
+      "title": "Why do Westerners love using toilet paper?",
+      "thumbnail": "https://images.pexels.com/photos/3962433/pexels-photo-3962433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "video_url": "https://youtu.be/XgqCIPvhxzA"
+    }
   ]
 }
