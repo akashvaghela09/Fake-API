@@ -1,4 +1,348 @@
 {
+  "users": [
+    {
+      "name": "Bhairav",
+      "email": "tbhairavreddY@gmail.com",
+      "password": "NPM55",
+      "id": 1,
+      "dob": "10/05/1997",
+      "category": "premimum"
+    },
+    {
+      "name": "Priyanka",
+      "email": "priyanka@gmail.com",
+      "password": "77URL",
+      "id": 2,
+      "dob": "10/05/1997",
+      "category": "premimum"
+    },
+    {
+      "name": "Akash",
+      "email": "akash@gmail.com",
+      "password": "JS99db",
+      "id": 3,
+      "dob": "20/07/1995",
+      "category": "normal"
+    },
+    {
+      "name": "Pranith",
+      "email": "pranith@gmail.com",
+      "password": "prCSS12",
+      "id": 4,
+      "dob": "10/05/1997",
+      "category": "normal"
+    },
+    {
+      "name": "Abhinav",
+      "email": "abhinav@gmail.com",
+      "password": "HTML5pp",
+      "id": 5,
+      "dob": "10/05/1997",
+      "category": "normal"
+    }
+  ],
+  "Food": [
+    {
+      "id": 1,
+      "name": "Green Onion",
+      "img_url": "https://b.zmtcdn.com/data/res_imagery/50453_RESTAURANT_593cbbe9c049f8376a21f03c584dc513_c.png?fit=around%7C450%3A450&crop=450%3A450%3B0%2C0",
+      "category": "Chinese",
+      "price": 350,
+      "price_for_two": 600,
+      "rating": 4.4,
+      "reviews": 1347
+    },
+    {
+      "id": 18,
+      "name": "Napoli Italian Bistro",
+      "img_url": "https://b.zmtcdn.com/data/pictures/0/57980/51a4fe7b9955e759f16b21d906f1b1d1.jpg?fit=around%7C450%3A450&crop=450%3A450%3B18%2C347",
+      "category": "Pizza",
+      "price": 650,
+      "price_for_two": 1200,
+      "rating": 4.2,
+      "reviews": 1147
+    },
+    {
+      "id": 12,
+      "name": "Wanley",
+      "img_url": "https://b.zmtcdn.com/data/res_imagery/51731_RESTAURANT_OBP(7).jpg?fit=around%7C450%3A450&crop=450%3A450%3B0%2C0",
+      "category": "Chinese",
+      "price": 250,
+      "price_for_two": 500,
+      "rating": 4.1,
+      "reviews": 593
+    },
+    {
+      "id": 3,
+      "name": "Szechuan Dragon",
+      "img_url": "https://b.zmtcdn.com/data/pictures/9/18704109/5d725de978b778014e85247d823b46cf.jpg?fit=around%7C450%3A450&crop=450%3A450%3B5%2C184",
+      "category": "Chinese",
+      "price": 300,
+      "price_for_two": 500,
+      "rating": 4.8,
+      "reviews": 1660
+    },
+    {
+      "id": 21,
+      "name": "Domino's Pizza",
+      "img_url": "https://b.zmtcdn.com/data/pictures/chains/2/50382/4278bf3b22163c213b684cadcb1dcc59.jpg?fit=around%7C450%3A450&crop=450%3A450%3B-84%2C129",
+      "category": "Pizza",
+      "price": 250,
+      "price_for_two": 400,
+      "rating": 3.7,
+      "reviews": 419
+    },
+    {
+      "id": 5,
+      "name": "Momoz",
+      "img_url": "https://b.zmtcdn.com/data/pictures/5/19002835/59efe4ee571938971a42b857c6d4a178.jpg?fit=around%7C450%3A450&crop=450%3A450%3B-4%2C82",
+      "category": "Chinese",
+      "price": 350,
+      "price_for_two": 600,
+      "rating": 4.1,
+      "reviews": 904
+    },
+    {
+      "id": 14,
+      "name": "Sriracha",
+      "img_url": "https://b.zmtcdn.com/data/res_imagery/57408_RESTAURANT_SingKong.jpg?fit=around%7C450%3A450&crop=450%3A450%3B0%2C0",
+      "category": "Chinese",
+      "price": 850,
+      "price_for_two": 1500,
+      "rating": 4.3,
+      "reviews": 860
+    },
+    {
+      "id": 16,
+      "name": "La Pino'z Pizza",
+      "img_url": "https://b.zmtcdn.com/data/pictures/chains/2/18692582/9cc1768a44975c8b79ee2d808a674e50.png?fit=around%7C450%3A450&crop=450%3A450%3B-8%2C0",
+      "category": "Pizza",
+      "price": 450,
+      "price_for_two": 800,
+      "rating": 4.2,
+      "reviews": 806
+    },
+    {
+      "id": 6,
+      "name": "Sichuan",
+      "img_url": "https://b.zmtcdn.com/data/pictures/chains/5/55225/eeda02da27fc7461798435ae77d8e7fc.jpg?fit=around%7C450%3A450&crop=450%3A450%3B1%2C196",
+      "category": "Chinese",
+      "price": 449,
+      "price_for_two": 800,
+      "rating": 4.2,
+      "reviews": 617
+    },
+    {
+      "id": 17,
+      "name": "Brik Oven",
+      "img_url": "https://b.zmtcdn.com/data/pictures/chains/0/18224650/102a733e670885826a4f274ccc2fbd45.jpg?fit=around%7C450%3A450&crop=450%3A450%3B1%2C266",
+      "category": "Pizza",
+      "price": 550,
+      "price_for_two": 1000,
+      "rating": 4.8,
+      "reviews": 2786
+    },
+    {
+      "id": 13,
+      "name": "Zaitoon",
+      "img_url": "https://b.zmtcdn.com/data/pictures/chains/3/54123/996ae21d817c4ab70e354cd2a5a0124a.jpg?fit=around%7C450%3A450&crop=450%3A450%3B-1%2C195",
+      "category": "Chinese",
+      "price": 550,
+      "price_for_two": 1000,
+      "rating": 4.3,
+      "reviews": 1947
+    },
+    {
+      "id": 27,
+      "name": "Vera Italiano",
+      "img_url": "https://b.zmtcdn.com/data/pictures/chains/8/18387418/bd426c613d4ccf835a89557f1ca735e5.jpg?fit=around%7C450%3A450&crop=450%3A450%3B-1%2C215",
+      "category": "Pizza",
+      "price": 450,
+      "price_for_two": 600,
+      "rating": 4.2,
+      "reviews": 2561
+    },
+    {
+      "id": 8,
+      "name": "Mamagoto",
+      "img_url": "https://b.zmtcdn.com/data/pictures/7/19195137/9320ee578eac2ba58278719f2e204ec0.jpg?fit=around%7C450%3A450&crop=450%3A450%3B0%2C2",
+      "category": "Chinese",
+      "price": 700,
+      "price_for_two": 1200,
+      "rating": 4.8,
+      "reviews": 2811
+    },
+    {
+      "id": 23,
+      "name": "Risalo Pizzeria",
+      "img_url": "https://b.zmtcdn.com/data/pictures/8/19244858/17a188f0d4be54167157ba52ae5860c1.jpg?fit=around%7C450%3A450&crop=450%3A450%3B-1%2C106",
+      "category": "Pizza",
+      "price": 450,
+      "price_for_two": 900,
+      "rating": 3.7,
+      "reviews": 1662
+    },
+    {
+      "id": 9,
+      "name": "Popsies",
+      "img_url": "https://b.zmtcdn.com/data/reviews_photos/60e/7aa854a759092628a0ec7176f333a60e_1483432511.jpg?fit=around%7C450%3A450&crop=450%3A450%3B3%2C216",
+      "category": "Chinese",
+      "price": 450,
+      "price_for_two": 750,
+      "rating": 3.9,
+      "reviews": 834
+    },
+    {
+      "id": 20,
+      "name": "Little Italy",
+      "img_url": "https://b.zmtcdn.com/data/pictures/9/50619/b61811fd24b9bbf4105851283e821e05.jpg?fit=around%7C450%3A450&crop=450%3A450%3B-2%2C230",
+      "category": "Pizza",
+      "price": 850,
+      "price_for_two": 1500,
+      "rating": 4.4,
+      "reviews": 3526
+    },
+    {
+      "id": 2,
+      "name": "Yo! Chow",
+      "img_url": "https://b.zmtcdn.com/data/pictures/chains/0/51080/66107102658600db07b1e5b3f9b89b0a.jpg?fit=around%7C450%3A450&crop=450%3A450%3B-19%2C135",
+      "category": "Chinese",
+      "price": 300,
+      "price_for_two": 400,
+      "rating": 4.3,
+      "reviews": 2231
+    },
+    {
+      "id": 26,
+      "name": "Crunch Pizza",
+      "img_url": "https://b.zmtcdn.com/data/res_imagery/52104_CHAIN_259b23c7cf02933852d3ba6eac7d111c.jpeg?fit=around%7C450%3A450&crop=450%3A450%3B0%2C0",
+      "category": "Pizza",
+      "price": 350,
+      "price_for_two": 600,
+      "rating": 4.1,
+      "reviews": 1126
+    },
+    {
+      "id": 4,
+      "name": "China Pearl",
+      "img_url": "https://b.zmtcdn.com/data/res_imagery/50261_RESTAURANT_df0ab8dba81434b27e606758ceee3188.jpg?fit=around%7C450%3A450&crop=450%3A450%3B0%2C0",
+      "category": "Chinese",
+      "price": 600,
+      "price_for_two": 1100,
+      "rating": 4.5,
+      "reviews": 1969
+    },
+    {
+      "id": 19,
+      "name": "Pizza Hut",
+      "img_url": "https://b.zmtcdn.com/data/pictures/0/57980/51a4fe7b9955e759f16b21d906f1b1d1.jpg?fit=around%7C450%3A450&crop=450%3A450%3B18%2C347",
+      "category": "Pizza",
+      "price": 350,
+      "price_for_two": 600,
+      "rating": 4.1,
+      "reviews": 572
+    },
+    {
+      "id": 15,
+      "name": "Chutney Chang",
+      "img_url": "https://b.zmtcdn.com/data/res_imagery/53165_RESTAURANT_4b15f17018a7aefa63d582593a97b0b0.jpg?fit=around%7C450%3A450&crop=450%3A450%3B0%2C0",
+      "category": "Chinese",
+      "price": 850,
+      "price_for_two": 1500,
+      "rating": 4.3,
+      "reviews": 4852
+    },
+    {
+      "id": 7,
+      "name": "Khava Karpo",
+      "img_url": "https://b.zmtcdn.com/data/res_imagery/50584_RESTAURANT_b97b33f3d16e9a0e455f60a7d2f9ca83.jpg?fit=around%7C450%3A450&crop=450%3A450%3B0%2C0",
+      "category": "Chinese",
+      "price": 250,
+      "price_for_two": 350,
+      "rating": 4.8,
+      "reviews": 977
+    },
+    {
+      "id": 22,
+      "name": "On The Nose",
+      "img_url": "https://b.zmtcdn.com/data/pictures/chains/1/18377941/aa235881eac334e8a0c203f7ad9558e2.jpg?fit=around%7C450%3A450&crop=450%3A450%3B4%2C226",
+      "category": "Pizza",
+      "price": 350,
+      "price_for_two": 600,
+      "rating": 3.8,
+      "reviews": 680
+    },
+    {
+      "id": 11,
+      "name": "Wok with Chung",
+      "img_url": "https://b.zmtcdn.com/data/res_imagery/51077_RESTAURANT_e74968d1529a1d241d92b0174d6f24a4.jpg?fit=around%7C450%3A450&crop=450%3A450%3B0%2C0",
+      "category": "Chinese",
+      "price": 550,
+      "price_for_two": 1000,
+      "rating": 4,
+      "reviews": 702
+    },
+    {
+      "id": 24,
+      "name": "Laziz Pizza",
+      "img_url": "https://b.zmtcdn.com/data/pictures/3/18476493/d8710376b54f35abb0b2cd81e63f323a.jpg?fit=around%7C450%3A450&crop=450%3A450%3B-1%2C210",
+      "category": "Pizza",
+      "price": 350,
+      "price_for_two": 600,
+      "rating": 3.8,
+      "reviews": 242
+    },
+    {
+      "id": 25,
+      "name": "Flames Pizza",
+      "img_url": "https://b.zmtcdn.com/data/pictures/9/18623789/103cb1f7d6818e989628e06be896d8c6.jpg?fit=around%7C450%3A450&crop=450%3A450%3B-19%2C50",
+      "category": "Pizza",
+      "price": 550,
+      "price_for_two": 1000,
+      "rating": 4.2,
+      "reviews": 382
+    },
+    {
+      "id": 10,
+      "name": "Delicacy",
+      "img_url": "https://b.zmtcdn.com/data/pictures/chains/0/50360/6e08293c5d64d4fe2917798dd22dde32.jpg?fit=around%7C450%3A450&crop=450%3A450%3B5%2C160",
+      "category": "Chinese",
+      "price": 250,
+      "price_for_two": 500,
+      "rating": 4.1,
+      "reviews": 535
+    },
+    {
+      "id": 28,
+      "name": "Pizza Republic",
+      "img_url": "https://b.zmtcdn.com/data/pictures/4/18547884/b349d57a0749ed03b6d2177ed70cd718.jpg?fit=around%7C450%3A450&crop=450%3A450%3B1%2C60",
+      "category": "Pizza",
+      "price": 250,
+      "price_for_two": 450,
+      "rating": 4,
+      "reviews": 2630
+    },
+    {
+      "id": 29,
+      "name": "As On Fire",
+      "img_url": "https://b.zmtcdn.com/data/pictures/1/18148931/949fa7e05d15bbabc8bc871dcc4c9bb2.jpg?fit=around%7C450%3A450&crop=450%3A450%3B0%2C304",
+      "category": "Pizza",
+      "price": 250,
+      "price_for_two": 400,
+      "rating": 3.8,
+      "reviews": 183
+    },
+    {
+      "id": 30,
+      "name": "Zucca Truffles",
+      "img_url": "https://b.zmtcdn.com/data/res_imagery/51703_CHAIN_3620b6773a327c479227b66b848c817b.jpg?fit=around%7C450%3A450&crop=450%3A450%3B0%2C0",
+      "category": "Pizza",
+      "price": 750,
+      "price_for_two": 1600,
+      "rating": 4.4,
+      "reviews": 751
+    }
+  ],
   "news": [
     {
       "id": 100001,
@@ -7,7 +351,8 @@
       "published_at": "09/03/2021",
       "category": "Asia",
       "sub_category": "India",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/BE3B/production/_117499684_gettyimages-1231599814.jpg",
           "img_tag": "Thousands of farmers are protesting at Delhi's borders"
         },
@@ -34,10 +379,11 @@
       "published_at": "16/02/2021",
       "category": "Asia",
       "sub_category": "India",
-      "img": [{
-        "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/2CB9/production/_116994411_cdf9330b-a82b-47d0-bd03-0ee13eb28d3d.jpg",
-        "img_tag": "The farmers are demanding the repeal of three farm laws"
-      },
+      "img": [
+        {
+          "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/2CB9/production/_116994411_cdf9330b-a82b-47d0-bd03-0ee13eb28d3d.jpg",
+          "img_tag": "The farmers are demanding the repeal of three farm laws"
+        },
         {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/920E/production/_114509373_gettyimages-1197872954.jpg",
           "img_tag": "Many farmers sell produce at large wholesale markets or mandis"
@@ -61,7 +407,8 @@
       "published_at": "16/02/2021",
       "category": "Asia",
       "sub_category": "India",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/16539/production/_116994419_022b36ca-eb68-4843-924f-250349178f6b.jpg",
           "img_tag": "More than half of Indians work on farms"
         },
@@ -88,7 +435,8 @@
       "published_at": "07/03/2021",
       "category": "Asia",
       "sub_category": "India",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/144FD/production/_117479138_066071725.jpg",
           "img_tag": "Fresh clashes broke out between police and protesters in Yangon on Saturday"
         },
@@ -115,7 +463,8 @@
       "published_at": "09/03/2021",
       "category": "Asia",
       "sub_category": "India",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/10C8F/production/_116615786_mediaitem116615784.jpg",
           "img_tag": "India's Covaxin"
         },
@@ -142,7 +491,8 @@
       "published_at": "27/02/2021",
       "category": "Asia",
       "sub_category": "India",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/FD8D/production/_117290946_gettyimages-1231095638.jpg",
           "img_tag": "Healthcare workers are worried abut another wave"
         },
@@ -169,7 +519,8 @@
       "published_at": "05/03/2021",
       "category": "Asia",
       "sub_category": "India",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/11A83/production/_117332327_f01f882e-f3e1-4d38-9008-ed93fbc69e6b.png",
           "img_tag": "Illustrators like Dr Radhika Patnala have spent the past year visualising the pandemic."
         },
@@ -196,7 +547,8 @@
       "published_at": "15/02/2021",
       "category": "Asia",
       "sub_category": "India",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/119E2/production/_116926127_mediaitem116926126.jpg",
           "img_tag": "Case numbers and deaths have been swiftly dropping in India"
         },
@@ -223,7 +575,8 @@
       "published_at": "28/02/2021",
       "category": "Asia",
       "sub_category": "India",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/EF12/production/_117320216_glass-vials.jpg",
           "img_tag": "SII is involved the world's largest inoculation programme in India"
         },
@@ -250,7 +603,8 @@
       "published_at": "03/03/2021",
       "category": "Asia",
       "sub_category": "India",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/87EC/production/_117369743_gettyimages-1182563379-594x594.jpg",
           "img_tag": "Chief Justice Sharad Bobde"
         },
@@ -277,7 +631,8 @@
       "published_at": "06/03/2021",
       "category": "Asia",
       "sub_category": "China",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/3BD5/production/_117471351_066058946-1.jpg",
           "img_tag": "Critics fear Beijing is crushing Hong Kong's 'one country, two systems' model"
         },
@@ -304,7 +659,8 @@
       "published_at": "06/03/2021",
       "category": "Asia",
       "sub_category": "China",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/13F22/production/_117389618_gettyimages-1305408740.jpg",
           "img_tag": "Thousands of lawmakers gathered as the annual NPC meeting began on Friday in Beijing"
         },
@@ -331,7 +687,8 @@
       "published_at": "06/03/2021",
       "category": "Asia",
       "sub_category": "China",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/BB18/production/_117469874_1.jpg",
           "img_tag": "The zoo's wolf enclosure contained a more docile inhabitant"
         },
@@ -358,7 +715,8 @@
       "published_at": "02/03/2021",
       "category": "Asia",
       "sub_category": "China",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/A0ED/production/_117379114_mediaitem117379113.jpg",
           "img_tag": "Demonstrators gathered outside the West Kowloon court building in Hong Kong"
         },
@@ -385,7 +743,8 @@
       "published_at": "25/02/2021",
       "category": "Asia",
       "sub_category": "China",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/10A7F/production/_117332286_chinavegfarmer.jpg",
           "img_tag": "Chinese President Xi Jinping says his country has reached the ambitious goal"
         },
@@ -412,7 +771,8 @@
       "published_at": "01/03/2021",
       "category": "Entertainment",
       "sub_category": "Entertainment",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/4886/production/_117466581_kol-2020-03-11-0001-rgb.jpg",
           "img_tag": "Kings Of Leon: 'We only wanted to make one record and sell a thousand copies'"
         },
@@ -439,7 +799,8 @@
       "published_at": "08/03/2021",
       "category": "Entertainment",
       "sub_category": "Entertainment",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/2DF8/production/_117386711_mbnaianchor.png",
           "img_tag": "South Korean viewers were told in advance about the deepfake Kim Joo-Ha, pictured here"
         },
@@ -466,7 +827,8 @@
       "published_at": "09/03/2021",
       "category": "Entertainment",
       "sub_category": "Entertainment",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/13D0B/production/_116836118_chicago7.jpg",
           "img_tag": "Sacha Baron Cohen (front) with other cast members of The Trial of the Chicago 7"
         },
@@ -493,7 +855,8 @@
       "published_at": "15/03/2021",
       "category": "Entertainment",
       "sub_category": "Entertainment",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/8D90/production/_117504263_burntbanksy.jpg",
           "img_tag": "The artwork was burnt in a video livestreamed from a park in New York"
         },
@@ -520,7 +883,8 @@
       "published_at": "01/02/2021",
       "category": "Entertainment",
       "sub_category": "Entertainment",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/119D9/production/_117135127_josie-lawrence-annette-badland-tony-maudsley-gemma-brodrick-matt-henry---nathan-mcmullen.jpg",
           "img_tag": "The cast of Our Lady of Blundellsands had a run of a week before the show was cut short"
         },
@@ -547,7 +911,8 @@
       "published_at": "05/03/2021",
       "category": "Coronavirus",
       "sub_category": "Coronavirus",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/12E60/production/_117380477_tv066024256.jpg",
           "img_tag": "Germany's vaccine commission has approved the use of the Oxford-AstraZeneca jab"
         },
@@ -574,7 +939,8 @@
       "published_at": "25/02/2021",
       "category": "Coronavirus",
       "sub_category": "Coronavirus",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/12044/production/_117469737_mediaitem117469736.jpg",
           "img_tag": "Testing of tourists is likely to remain widespread in Europe this summer"
         },
@@ -601,7 +967,8 @@
       "published_at": "05/02/2021",
       "category": "Coronavirus",
       "sub_category": "Coronavirus",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/02B5/production/_117339600_vaccine_doses_per100_countries_most_vax1mar-nc.png",
           "img_tag": "Vaccine doses per 100 people in countries with highest total vaccination"
         },
@@ -628,7 +995,8 @@
       "published_at": "17/01/2021",
       "category": "Coronavirus",
       "sub_category": "Coronavirus",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/A0C4/production/_117365114_823757b3-a67d-4fcf-ac60-ab1e4d948a8d.jpg",
           "img_tag": "A queue for vaccinations in New York."
         },
@@ -655,7 +1023,8 @@
       "published_at": "03/03/2021",
       "category": "Coronavirus",
       "sub_category": "Coronavirus",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/F1B6/production/_116787816_jabber.jpg",
           "img_tag": "A single shot of the Oxford-AstraZeneca vaccine is highly protective"
         },
@@ -682,7 +1051,8 @@
       "published_at": "02/02/2021",
       "category": "Coronavirus",
       "sub_category": "Coronavirus",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/12A62/production/_115368367_vaccine2.jpg",
           "img_tag": "Covid vaccination campaigns are now under way in the UK"
         },
@@ -709,7 +1079,8 @@
       "published_at": "26/01/2021",
       "category": "Coronavirus",
       "sub_category": "Coronavirus",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/13A57/production/_116617408_1200-wuhan-market-11-jan-gettyimages-1193097821.jpg",
           "img_tag": "Wuhan’s Huanan Seafood Wholesale Market was sealed off on 1 January 2020"
         },
@@ -736,7 +1107,8 @@
       "published_at": "25/02/2021",
       "category": "Coronavirus",
       "sub_category": "Coronavirus",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/502A/production/_116522502_gettyimages-1296234046.jpg",
           "img_tag": "Disneyland has opened a mass vaccination site"
         },
@@ -763,7 +1135,8 @@
       "published_at": "25/02/2021",
       "category": "Coronavirus",
       "sub_category": "Coronavirus",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/13D13/production/_114817118_us_cases-nc.png",
           "img_tag": "Cases have been rising recently"
         },
@@ -790,7 +1163,8 @@
       "published_at": "04/12/2020",
       "category": "Coronavirus",
       "sub_category": "Coronavirus",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/8B79/production/_115750753_gettyimages-1229764604.jpg",
           "img_tag": "A faster but less reliable method of testing has gained ground in many states"
         },
@@ -817,10 +1191,11 @@
       "published_at": "16/02/2021",
       "category": "Trending",
       "sub_category": "Trending",
-      "img": [{
-        "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/2CB9/production/_116994411_cdf9330b-a82b-47d0-bd03-0ee13eb28d3d.jpg",
-        "img_tag": "The farmers are demanding the repeal of three farm laws"
-      },
+      "img": [
+        {
+          "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/2CB9/production/_116994411_cdf9330b-a82b-47d0-bd03-0ee13eb28d3d.jpg",
+          "img_tag": "The farmers are demanding the repeal of three farm laws"
+        },
         {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/920E/production/_114509373_gettyimages-1197872954.jpg",
           "img_tag": "Many farmers sell produce at large wholesale markets or mandis"
@@ -844,7 +1219,8 @@
       "published_at": "03/03/2021",
       "category": "Trending",
       "sub_category": "Trending",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/87EC/production/_117369743_gettyimages-1182563379-594x594.jpg",
           "img_tag": "Chief Justice Sharad Bobde"
         },
@@ -871,7 +1247,8 @@
       "published_at": "03/03/2021",
       "category": "Trending",
       "sub_category": "Trending",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/F1B6/production/_116787816_jabber.jpg",
           "img_tag": "A single shot of the Oxford-AstraZeneca vaccine is highly protective"
         },
@@ -898,7 +1275,8 @@
       "published_at": "05/03/2021",
       "category": "Trending",
       "sub_category": "Trending",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/12E60/production/_117380477_tv066024256.jpg",
           "img_tag": "Germany's vaccine commission has approved the use of the Oxford-AstraZeneca jab"
         },
@@ -925,7 +1303,8 @@
       "published_at": "15/02/2021",
       "category": "Trending",
       "sub_category": "Trending",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/119E2/production/_116926127_mediaitem116926126.jpg",
           "img_tag": "Case numbers and deaths have been swiftly dropping in India"
         },
@@ -952,7 +1331,8 @@
       "published_at": "07/03/2021",
       "category": "Trending",
       "sub_category": "Trending",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/144FD/production/_117479138_066071725.jpg",
           "img_tag": "Fresh clashes broke out between police and protesters in Yangon on Saturday"
         },
@@ -979,7 +1359,8 @@
       "published_at": "06/03/2021",
       "category": "Trending",
       "sub_category": "Trending",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/BB18/production/_117469874_1.jpg",
           "img_tag": "The zoo's wolf enclosure contained a more docile inhabitant"
         },
@@ -1006,7 +1387,8 @@
       "published_at": "09/03/2021",
       "category": "Trending",
       "sub_category": "Trending",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/10C8F/production/_116615786_mediaitem116615784.jpg",
           "img_tag": "India's Covaxin"
         },
@@ -1033,7 +1415,8 @@
       "published_at": "16/02/2021",
       "category": "Trending",
       "sub_category": "Trending",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/16539/production/_116994419_022b36ca-eb68-4843-924f-250349178f6b.jpg",
           "img_tag": "More than half of Indians work on farms"
         },
@@ -1060,7 +1443,8 @@
       "published_at": "17/01/2021",
       "category": "Trending",
       "sub_category": "Trending",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/A0C4/production/_117365114_823757b3-a67d-4fcf-ac60-ab1e4d948a8d.jpg",
           "img_tag": "A queue for vaccinations in New York"
         },
@@ -1080,7 +1464,6 @@
         }
       ]
     },
-    
     {
       "id": 200001,
       "headline": "Banksy art burned, destroyed and sold as token in 'money-making stunt'",
@@ -1088,7 +1471,8 @@
       "published_at": "09/03/2021",
       "category": "Tech",
       "sub_category": "Tech",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/8D90/production/_117504263_burntbanksy.jpg",
           "img_tag": "An original Banksy"
         },
@@ -1101,8 +1485,6 @@
         {
           "sub_title": "Morons",
           "sub_description": "The original 2006 screenprint by Banksy entitled Morons (White) depicts a Christie's auctioneer pointing at framed paintings in a crowded auction room. Next to him is a framed image accompanied by a phrase including the words: “I can’t believe you morons actually buy this.The Banksy was bought for $95,000 by Injective Protocol, the blockchain firm behind the stunt, who said it aimed to “inspire” tech enthusiasts and artists with this statement.In the video, the man who burns the print is wearing a jumper which has a picture of Banksy's Girl With Balloon on it."
-          
-         
         },
         {
           "sub_title": "Expression of art",
@@ -1117,7 +1499,8 @@
       "published_at": "25/02/2021",
       "category": "Tech",
       "sub_category": "Tech",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/EEBF/production/_117491116_mediaitem117491115.jpg",
           "img_tag": "One billion public-facing Instagram photos"
         },
@@ -1144,7 +1527,8 @@
       "published_at": "25/02/2021",
       "category": "Tech",
       "sub_category": "Tech",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/10EC7/production/_117491396_hi066064535.jpg",
           "img_tag": "The European Banking Authority's email "
         },
@@ -1171,7 +1555,8 @@
       "published_at": "25/02/2021",
       "category": "Tech",
       "sub_category": "Tech",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/01A3/production/_117491400_gettyimages-1230865877.jpg",
           "img_tag": "Google advised employees in the US who complained about racism to take medical leave."
         },
@@ -1198,7 +1583,8 @@
       "published_at": "25/02/2021",
       "category": "Tech",
       "sub_category": "Tech",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/2335/production/_111931090_droneinfrontofcontrolvan.jpg",
           "img_tag": "Trials to use drones for delivering NHS medical supplies to the Isle of Wight will resume next month."
         },
@@ -1218,8 +1604,6 @@
         }
       ]
     },
-
-
     {
       "id": 200006,
       "headline": "Which countries will recover fastest from the pandemic?",
@@ -1227,7 +1611,8 @@
       "published_at": "25/02/2021",
       "category": "Business",
       "sub_category": "Business",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/E861/production/_117498495_gettyimages-1230243126.jpg",
           "img_tag": "Politicians like to compare current events"
         },
@@ -1254,7 +1639,8 @@
       "published_at": "25/02/2021",
       "category": "Business",
       "sub_category": "Business",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/2BF8/production/_117365211_frank_schmidt_photo_credit_frankschmidt.jpg",
           "img_tag": "Frank Schmidt says the tourists just disappeared overnight, and never came back. "
         },
@@ -1281,7 +1667,8 @@
       "published_at": "25/02/2021",
       "category": "Business",
       "sub_category": "Business",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/E73D/production/_117179195_gettyimages-1285274255.jpg",
           "img_tag": "Australians take their lifestyles seriously"
         },
@@ -1308,7 +1695,8 @@
       "published_at": "25/02/2021",
       "category": "Business",
       "sub_category": "Business",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/11900/production/_116663917_christopherbaileypic1nocreditrequired.jpg",
           "img_tag": "As airlines around the world remain grounded"
         },
@@ -1335,7 +1723,8 @@
       "published_at": "25/02/2021",
       "category": "Business",
       "sub_category": "Business",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/31B2/production/_115222721_rebeccagreen.jpg",
           "img_tag": "With a great many of us continuing to work from home"
         },
@@ -1355,8 +1744,6 @@
         }
       ]
     },
-
-
     {
       "id": 200011,
       "headline": "Winchcombe meteorite: ‘A kind of splatter on our driveway’      ",
@@ -1364,7 +1751,8 @@
       "published_at": "25/02/2021",
       "category": "Science",
       "sub_category": "Science",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/8318/production/_117506533_img_6323.jpg",
           "img_tag": "Hannah, Rob and Cathryn are celebrating an extraordinary find"
         },
@@ -1391,7 +1779,8 @@
       "published_at": "25/02/2021",
       "category": "Science",
       "sub_category": "Science",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/C3A6/production/_117468005_nrf_0014_0668192003_410ecm_n0030110ncam03014_01_285j01.png",
           "img_tag": "Tracks in the dust: The rover should cover some 15km in its first Martian year"
         },
@@ -1418,7 +1807,8 @@
       "published_at": "25/02/2021",
       "category": "UK",
       "sub_category": "England",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/7F9A/production/_117466623_b215a3e4-77f1-470a-b459-512b824e1a1d.jpg",
           "img_tag": "Sarah Everard has been described as `beautiful, thoughtful and incredibly kind`"
         },
@@ -1445,7 +1835,8 @@
       "published_at": "25/02/2021",
       "category": "UK",
       "sub_category": "England",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/B226/production/_113660654_mediaitem113659326.jpg",
           "img_tag": "Peter McCombie, aged 73, died in hospital after he was struck on Bow Road on 3 July"
         },
@@ -1472,7 +1863,8 @@
       "published_at": "25/02/2021",
       "category": "UK",
       "sub_category": "Wales",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/D34E/production/_99649045_gettyimages-487729465.jpg",
           "img_tag": "Some 3,000 stalking offences have been reported to police in Wales since January 2020"
         },
@@ -1499,7 +1891,8 @@
       "published_at": "25/02/2021",
       "category": "UK",
       "sub_category": "Wales",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/1002C/production/_117508556_sally.jpg",
           "img_tag": "Sallylouise Jones would like to see a five-miles from home travel rule imposed"
         },
@@ -1526,7 +1919,8 @@
       "published_at": "25/02/2021",
       "category": "UK",
       "sub_category": "Scottland",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/9A49/production/_116779493_064188036.jpg",
           "img_tag": "All secondary pupils will be able to get some in-class time before the Easter holidays"
         },
@@ -1553,7 +1947,8 @@
       "published_at": "25/02/2021",
       "category": "UK",
       "sub_category": "Scottland",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/C633/production/_117493705_ibrox_reuters-1.jpg",
           "img_tag": "First Minister Nicola Sturgeon has said "
         },
@@ -1580,7 +1975,8 @@
       "published_at": "09/03/2021",
       "category": "Sports",
       "sub_category": "Cricket",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://images.indianexpress.com/2021/03/SuryaKumar-Yadav-India-lg.jpg",
           "img_tag": "Suryakumar Yadav's story has a gripping coming-of-age narrative of desire and determination."
         },
@@ -1607,7 +2003,8 @@
       "published_at": "09/03/2021",
       "category": "Sports",
       "sub_category": "Football",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/F493/production/_117511626_pics.jpg",
           "img_tag": "Ronaldo is distraught but Pepe, his Porto team-mates and Haaland celebrate"
         },
@@ -1634,13 +2031,14 @@
       "published_at": "09/03/2021",
       "category": "Sports",
       "sub_category": "Cricket",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/B1BD/production/_117510554_joey_benjamin_getty_body.jpg",
           "img_tag": "Joey Benjamin finished his first-class career with a bowling average of 29.94"
         },
         {
           "img_url": "https://lh3.googleusercontent.com/proxy/383BJ-ozkivGSYp5stO67slBSaX14t0p_D58ldaxG_orPDriDs7GvOJqIUxVoaSt8srLCyp3A8QisIHJmWCpOZ_DeZamv8b-KqUh5i8CQ1WfQcTDaemXe83POqkwgNJKqMpl9EPtoTJzRrlAGJxHEg",
-          "img_tag": "Joey Benjamin – 1961-2021" 
+          "img_tag": "Joey Benjamin – 1961-2021"
         }
       ],
       "article_data": [
@@ -1661,7 +2059,8 @@
       "published_at": "09/03/2021",
       "category": "Sports",
       "sub_category": "Cricket",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/16206/production/_117503609_gettyimages-1288874635.jpg",
           "img_tag": "Buttler has played in 74 T20s for England, averaging 29.26 at a strike rate of 140.36"
         },
@@ -1688,7 +2087,8 @@
       "published_at": "09/03/2021",
       "category": "Sports",
       "sub_category": "Cricket",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/A29E/production/_117503614_gettyimages-1230401231.jpg",
           "img_tag": "All-rounder Moeen Ali was one of several England Test players to be rested this winter"
         },
@@ -1715,7 +2115,8 @@
       "published_at": "09/03/2021",
       "category": "Sports",
       "sub_category": "Football",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/18219/production/_117514889_maracana_epa.jpg",
           "img_tag": "Club sides Flamengo and Fluminense use the stadium as their home"
         },
@@ -1738,11 +2139,12 @@
     {
       "id": 100048,
       "headline": "Six Nations: England pay split 'an easy decision' - Ben Youngs",
-      "description":  "It was an 'easy decision' for England's players to share their fees and ensure fringe members were paid the same for the Six Nations, says Ben Youngs. Covid-19 protocols mean England have a smaller-than-usual 28-man squad with all players staying within a 'bubble' for the seven-week tournament.Usually, players outside the 23 matchday squad would not receive a full match fee of about £17,000.Only 23 get to take the field but that doesn't mean that only 23 are training hard and doing everything they can to prep the team.Everyone is pulling their weight to make this team as good as they can",
+      "description": "It was an 'easy decision' for England's players to share their fees and ensure fringe members were paid the same for the Six Nations, says Ben Youngs. Covid-19 protocols mean England have a smaller-than-usual 28-man squad with all players staying within a 'bubble' for the seven-week tournament.Usually, players outside the 23 matchday squad would not receive a full match fee of about £17,000.Only 23 get to take the field but that doesn't mean that only 23 are training hard and doing everything they can to prep the team.Everyone is pulling their weight to make this team as good as they can",
       "published_at": "09/03/2021",
       "category": "Sports",
       "sub_category": "Football",
-      "img": [{
+      "img": [
+        {
           "img_url": "https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/B72B/production/_117519864_england_getty.jpg",
           "img_tag": "Youngs (9) scored one of England's two tries in a 40-24 defeat by Wales last month"
         },
@@ -1763,268 +2165,5 @@
       ]
     }
   ],
-  "top_stories" : [
-    {
-      "id": 100021,
-      "post_num": 1,
-      "author": "Verna Prosacco",
-      "author_avatar": "https://willowpaule.com/wp-content/uploads/2020/03/square-profile-wp.jpg",
-      "article": "Covid: Germany approves AstraZeneca vaccine for over-65s",
-      "published_at": "05/03/2021"
-    },
-    {
-      "id": 100017,
-      "post_num": 2,
-      "author": "Prof. Juwan Kihn",
-      "author_avatar": "http://www.saasquatch.com/assets/Outdoor-Square-Profile-Derek.jpg",
-      "article": "'Deepfake is the future of content creation'",
-      "published_at": "08/03/2021"
-    },
-    {
-      "id": 100008,
-      "post_num": 3,
-      "author": "Loraine Muller",
-      "author_avatar": "https://dieteticallyspeaking.com/wp-content/uploads/2017/01/profile-square.jpg",
-      "article": "Coronavirus: Is the epidemic finally coming to an end in India?",
-      "published_at": "15/02/2021"
-    },
-    {
-      "id": 100003,
-      "post_num": 4,
-      "author": "Lester Pouros",
-      "author_avatar": "https://darylh.com/wp-content/uploads/2017/05/Profile-Picture-Square.jpg",
-      "article": "Why do India's farmers feel insecure?",
-      "published_at": "16/02/2021"
-    },
-    {
-      "id": 100013,
-      "post_num": 5,
-      "author": "Cara Bailey",
-      "author_avatar": "https://willowpaule.com/wp-content/uploads/2020/03/square-profile-wp.jpg",
-      "article": "China zoo 'tries to pass dog off as wolf'",
-      "published_at": "06/03/2021"
-    },
-    {
-      "id": 100019,
-      "post_num": 6,
-      "author": "Lon Ebert",
-      "author_avatar": "https://i0.wp.com/movile.blog/wp-content/uploads/2019/05/SMall-profile-square.png?ssl=1",
-      "article": "Banksy art burned, destroyed and sold as token in 'money-making stunt'",
-      "published_at": "15/03/2021"
-    },
-    {
-      "id": 100025,
-      "post_num": 7,
-      "author": "Kolby Auer",
-      "author_avatar": "https://sunrift.com/wp-content/uploads/2014/12/Blake-profile-photo-square.jpg",
-      "article": "Covid: What is the Oxford-AstraZeneca vaccine?",
-      "published_at": "03/03/2021"
-    },
-    {
-      "id": 200003,
-      "post_num": 8,
-      "author": "Javon Crooks",
-      "author_avatar": "https://cms-assets.tutsplus.com/uploads/users/810/profiles/19338/profileImage/profile-square-extra-small.png",
-      "article": "European Banking Authority hit by Microsoft Exchange hack",
-      "published_at": "01/02/2021"
-    },
-    {
-      "id": 200008,
-      "post_num": 9,
-      "author": "Mr. Reinhold Ratke V",
-      "author_avatar": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.q8TIjfzeXaQwbAg4__W26AAAAA%26pid%3DApi&f=1",
-      "article": "Have Australians fallen out of love with Sydney and Melbourne?",
-      "published_at": "15/09/2020"
-    },
-    {
-      "id": 200012,
-      "post_num": 10,
-      "author": "Reginald Balistreri",
-      "author_avatar": "https://willowpaule.com/wp-content/uploads/2020/03/square-profile-wp.jpg",
-      "article": "Nasa's Perseverance rover begins its exploration of Mars",
-      "published_at": "25/02/2021"
-    }
-  ],
-  "ApiAuth": [
-    {
-      "name": "Bhairav Reddy",
-      "email": "tbhairavreddY@gmail.com",
-      "password": "bhai",
-      "id": "BDHHJHBXJH8582412",
-      "dob": "10/05/1997",
-      "category": "premimum"
-    },
-    {
-      "name": "Akash",
-      "email": "akash@gmail.com",
-      "password": "akash",
-      "id": "BDHHJHBXJH8247856",
-      "dob": "20/07/1995",
-      "category": "normal"
-    },
-    {
-      "name": "Pranith",
-      "email": "pranith@gmail.com",
-      "password": "pranith",
-      "id": "BDHHJHBXJH5822412",
-      "dob": "10/05/1997",
-      "category": "normal"
-    },
-    {
-      "name": "Abhinav",
-      "email": "abhinav@gmail.com",
-      "password": "abhinav",
-      "id": "BDHHJHBX252369412",
-      "dob": "10/05/1997",
-      "category": "normal"
-    },
-    {
-      "name": "Priyanka",
-      "email": "priyanka@gmail.com",
-      "password": "priyanka",
-      "id": "BDHHJHBXJH585412",
-      "dob": "10/05/1997",
-      "category": "premimum"
-    },
-    {
-      "name": "raja",
-      "dob": "2021-03-04",
-      "email": "raja@gmail.com",
-      "password": "raja",
-      "category": "admin",
-      "id": "z6HnfvS"
-    }
-  ],
-  "Work":[
-    {
-      "id":300001,
-      "heading":"Why LGBTQ couples split household tasks more equally",
-      "img1":"https://ychef.files.bbci.co.uk/1600x900/p0993p60.webp",
-      "img2":"https://ychef.files.bbci.co.uk/1600x900/p0993pnr.webp",
-      "description":"As Covid-19 widens persistent gender gaps at work and home, queer couples' division of domestic labour can offer a model for a more gender-egalitarian family life.For Kara and Jo Chambers-Grant, communication has been key to maintaining equilibrium during the upheaval of the pandemic. The couple, who live in Bath in the UK, married in 2017, shortly after meeting through an online group that offers peer support for women, trans and nonbinary people coming out later in life. Following a whirlwind transcontinental romance, Kara moved from the US to live with Jo in England. They’re parents to Oscar, 14, Jo’s biological son from a previous relationship, who spends half his time with his father and half with Kara and Jo. After moving in together, Kara and Jo (pictured above) discovered they had complementary interests and skills. “I was always in a happy place doing DIY projects,” says Jo, an engineer. Kara, who manages accommodations at a study abroad programme, likes cooking. “I totally lucked out and she does most of the laundry. That’s amazing,” says Kara. “I like the laundry,” Jo adds.  Both have worked at home since the pandemic hit, though Kara goes into the office intermittently. When Oscar began home-schooling at the beginning of lockdown, Kara and Jo drew on their individual strengths to settle into a remote-education rhythm. Kara – who sees herself as slightly more structured in her parenting outlook – helped him make a colour-coded school schedule. Oscar quickly became more self-directed, working on a beanbag chair in Jo’s office. On days Kara had to go to work in person, Jo supported him more actively. When Jo needed a break, Kara stepped in.",
-      "category":"Equality Matters",
-      "author":"Reina Gattuso"
-    },
-    {
-      "id":300002,
-      "heading":"Why getting a name right matters",
-      "img1":"https://ychef.files.bbci.co.uk/1600x900/p093g0gw.webp",
-      "img2":"https://ychef.files.bbci.co.uk/1024x1280/p093h3n5.webp",
-      "description":"The care we take to get names right is increasingly under scrutiny as Kamala Harris takes office. What message do we send when we get them wrong?Canadian radio host Nana aba Duncan decided a decade ago she no longer wanted to go by nicknames and instead reclaim her full Ghanaian name, pronounced Nuh-NAA-buh. She put a name pronouncer in her email signature, and patiently corrected people when they didn’t get it quite right. She got a lot of support – but she also still faces struggles. A woman at a party insisted she could never pronounce Duncan’s full first name, laughing instead at how different it was and asking where she was from. “She really, really acted like I had just come from another country… I really felt like I was so foreign to her,” says Duncan, who has lived in Toronto for more than 40 years. At another get-together, a guest explained that her name was hard to pronounce and unilaterally reverted to ‘Nana’ instead. Then there was the co-worker who sang Duncan’s name to the first four notes of Beethoven’s Fifth Symphony: “Na-Na-Na-BAAAAAA.” No one else’s name became a musical spectacle, just hers. “I feel like I'm a spoil sport if I say, ‘actually, I don't think that's funny’,” says Duncan, 43. “I hate that I don't put myself first in those moments, but sometimes I think we do this to keep the peace because there are so many other things that we have to deal with and we just let those things go.”  Xian Zhao, a post-doctoral fellow at the University of Toronto whose research focuses on ethnic name pronunciation, says that although many people don’t realise it, habitually pronouncing an unfamiliar name incorrectly is a form of implicit discrimination. It sends a message that “you are minimal”, says Zhao. “You are not important in this environment, so why should I take time and my effort to learn it?”",
-      "category":"Equality Matters",
-      "author":"Zulekha Nathoo"
-    },
- 
-    {
-      "id":300003,
-      "heading":"Why LGBTQ couples split household tasks more equally",
-      "img1":"https://ychef.files.bbci.co.uk/1600x900/p0980tqk.webp",
-      "img2":"https://ychef.files.bbci.co.uk/1600x900/p0980twc.webp",
-      "description":"Why does endlessly looking for bad news feel so strangely gratifying – and can we break the habit?Since the beginning of the pandemic, Emily Bernstein, 29, has been scrolling and scrolling and scrolling. As a Los Angeles-based comedy writer, Bernstein needs to read through Twitter and news sites for material. But it’s not just her job that keeps her reading: it’s the compulsion of ‘doomscrolling’ – trawling through feeds without pause, no matter how bad the news is or how many trolls’ comments she reads.“I found myself in bed at night scrolling news sites and knowing this is not healthy for me… so why am I doing this?” says Bernstein.It’s a question many doomscrollers have been asking themselves. There are multiple reasons why the urge to read may be so strong: the feeling of safety in knowledge, especially during difficult times; the design of social-media platforms that constantly refresh and boost the loudest voices; and, of course, the human fascination aspect. “It’s like not being able to look away when you see a car accident,” says Bernstein.Beyond knowing intuitively that doomscrolling makes us feel awful, studies conducted during the pandemic have corroborated this, linking both anxiety and depression to the consumption of Covid-19 related media and increased time spent on smartphones. So, why do we keep endlessly scrolling ­– and why can the practice feel oddly soothing? And could there actually be surprising upsides to keeping our eyes locked on our feeds?",
-      "category":"Psychology",
-      "author":"Jessica Klein"
-    },
-    {
-      "id":300004,
-      "heading":"Why getting a name right matters",
-      "img1":"https://ychef.files.bbci.co.uk/1600x900/p093g0gw.webp",
-      "img2":"https://ychef.files.bbci.co.uk/1024x1280/p093h3n5.webp",
-      "description":"The care we take to get names right is increasingly under scrutiny as Kamala Harris takes office. What message do we send when we get them wrong?Canadian radio host Nana aba Duncan decided a decade ago she no longer wanted to go by nicknames and instead reclaim her full Ghanaian name, pronounced Nuh-NAA-buh. She put a name pronouncer in her email signature, and patiently corrected people when they didn’t get it quite right. She got a lot of support – but she also still faces struggles. A woman at a party insisted she could never pronounce Duncan’s full first name, laughing instead at how different it was and asking where she was from. “She really, really acted like I had just come from another country… I really felt like I was so foreign to her,” says Duncan, who has lived in Toronto for more than 40 years. At another get-together, a guest explained that her name was hard to pronounce and unilaterally reverted to ‘Nana’ instead. Then there was the co-worker who sang Duncan’s name to the first four notes of Beethoven’s Fifth Symphony: “Na-Na-Na-BAAAAAA.” No one else’s name became a musical spectacle, just hers. “I feel like I'm a spoil sport if I say, ‘actually, I don't think that's funny’,” says Duncan, 43. “I hate that I don't put myself first in those moments, but sometimes I think we do this to keep the peace because there are so many other things that we have to deal with and we just let those things go.”  Xian Zhao, a post-doctoral fellow at the University of Toronto whose research focuses on ethnic name pronunciation, says that although many people don’t realise it, habitually pronouncing an unfamiliar name incorrectly is a form of implicit discrimination. It sends a message that “you are minimal”, says Zhao. “You are not important in this environment, so why should I take time and my effort to learn it?”",
-      "category":"Equality Matters",
-      "author":"Zulekha Nathoo"
-    },
-  
-    {
-      "id":300005,
-      "heading":"Why LGBTQ couples split household tasks more equally",
-      "img1":"https://ychef.files.bbci.co.uk/1600x900/p0997v43.png",
-      "img2":"https://ychef.files.bbci.co.uk/1600x900/p0997w2d.webp",
-      "description":"Why does endlessly looking for bad news feel so strangely gratifying – and can we break the habit?Since the beginning of the pandemic, Emily Bernstein, 29, has been scrolling and scrolling and scrolling. As a Los Angeles-based comedy writer, Bernstein needs to read through Twitter and news sites for material. But it’s not just her job that keeps her reading: it’s the compulsion of ‘doomscrolling’ – trawling through feeds without pause, no matter how bad the news is or how many trolls’ comments she reads.“I found myself in bed at night scrolling news sites and knowing this is not healthy for me… so why am I doing this?” says Bernstein.It’s a question many doomscrollers have been asking themselves. There are multiple reasons why the urge to read may be so strong: the feeling of safety in knowledge, especially during difficult times; the design of social-media platforms that constantly refresh and boost the loudest voices; and, of course, the human fascination aspect. “It’s like not being able to look away when you see a car accident,” says Bernstein.Beyond knowing intuitively that doomscrolling makes us feel awful, studies conducted during the pandemic have corroborated this, linking both anxiety and depression to the consumption of Covid-19 related media and increased time spent on smartphones. So, why do we keep endlessly scrolling ­– and why can the practice feel oddly soothing? And could there actually be surprising upsides to keeping our eyes locked on our feeds?",
-      "category":"Future",
-      "author":"Frank Swain"
-    },
- 
-    {
-      "id":300006,
-      "heading":"What happens when you work from bed for a year      ",
-      "img1":"https://ychef.files.bbci.co.uk/1600x900/p09791zb.webp",
-      "img2":"https://ychef.files.bbci.co.uk/1600x900/p09792b3.webp",
-      "description":"The allure of working from bed is strong – but turning your mattress into your office can trigger a slew of health problems, both psychological and physical.For many people, working from home, or ‘WFH’, has also come to mean ‘WFB’ – working from bed. Getting dressed and commuting to an office has been replaced by splashing water on your face and cracking open a computer as you settle back under your blanket.A staggering number of people are setting up shop on their mattresses; according to a November 2020 study, 72% of 1,000 Americans surveyed said they had worked remotely from their bed during the pandemic – a 50% increase since the start of the crisis. One in 10 reported they spent “most or all of their workweek” – 24-to-40 hours or more – in bed. This is especially true of young workers; in the UK, workers aged 18 to 34 are the least likely to have a proper desk and chair, and are twice as likely to work from bed than older workers.But WFB isn’t just for lack of a proper chair – many simply love the cosiness and ease of the set-up. On Instagram, the #WorkFromBed hashtag pulls up thousands of photos, many of them featuring smiling people snuggled up in their pyjamas with cups of coffee, maybe even breakfast on a tray.But the reality is that turning your bed into your office can trigger a slew of health problems, both psychological and physical. And even if you don’t notice them now, adverse effects – possibly permanent – could emerge later on in life.",
-      "category":"REMOTE CONTROL ",
-      "author":"Bryan Lufkin"
-    },
- 
-    {
-      "id":300007,
-      "heading":"Japan's mysterious underwater city     ",
-      "img1":"https://ychef.files.bbci.co.uk/1600x640/p0905g2h.jpg",
-      "img2":"https://ychef.files.bbci.co.uk/1600x900/p09792b3.webp",
-      "description":"In 1987, a local diver exploring off the coast of Japan’s southern Ryukyu Islands stumbled across a startling discovery. Twenty-five metres below the surface, he spotted a series of almost perfectly carved steps with straight edges. Known today as the Yonaguni Monument, this massive 50m-long-by-20m-wide behemoth is one of the world’s most unusual underwater sites.Nicknamed Japan’s Atlantis, the rectangular, stacked pyramid-like monument is believed to be more than 10,000 years old. Some think it’s all that remains of a long-lost Pacific civilisation, possibly built by Japan’s prehistoric Jomon people who inhabited these islands as early as 12000 BC. Others say that the site resembles natural formations elsewhere around the world with distinctly defined edges and flat surfaces, such as Northern Ireland’s Giant's Causeway, whose thousands of interlocking basalt columns were formed by a volcanic eruption millions of years ago.",
-      "category":"Travel ",
-      "author":"Hephzibah Anderson"
-    },
-    {
-      "id":300008,
-      "heading":"The Gothic books that are channelling our fears",
-      "img1":"https://ychef.files.bbci.co.uk/1600x900/p099dgmq.webp",
-      "img2":"https://ychef.files.bbci.co.uk/1600x900/p099dhs7.webp",
-      "description":"Are we living in 'Gothic times'? Hephzibah Anderson explores how the genre's past and new stories delve deep into horror, disorder and darkness.We live in Gothic times, declared Angela Carter back in 1974. It's a theme Carlos Ruiz Zafón took up several decades later: Ours is a time with a dark heart, ripe for the noir, the gothic and the baroque, he wrote in 2010. Both authors had good reason. The Gothic has always been about far more than heroines in Victorian nightgowns, trapped in labyrinthine ancestral homes, and along with the supernatural, its imaginings probe power dynamics and boundaries, delving deep into disorder and duality.More like this: The Frankenstein's monsters of today...The rise of apocalyptic fiction...The world's most misunderstood novel...If the 1970s (think the oil crisis, Watergate, a spike in skyjackings) primed readers to be receptive to such elements, it was a decade destined to be far outdone by the start of the 21st Century in terms of horror and upheaval (9/11, the global financial crisis, an intensified fear of climate apocalypse). The world seems to have grown only more uncertain in the years since, and it's certainly tough to rival the age of Covid for gothic motifs made manifest. Claustrophobia? Try successive lockdowns spent working, learning, and socialising from home. Isolation? Ditto. Fear of a past that can't be exorcised? Sounds a lot like long Covid.",
-      "category":"Culture",
-      "author":"Hephzibah Anderson"
-    },
-    {
-      "id":300009,
-      "heading":"The Gothic books that are channelling our fears",
-      "img1":"https://ychef.files.bbci.co.uk/1600x900/p0998c4p.webp",
-      "img2":"https://ychef.files.bbci.co.uk/1600x900/p0998brk.webp",
-      "description":"With people spending more time at home, soft lighting and squishy sofas are increasingly in demand – yet cosy living is about more than just décor.Growing up in the Philippines, Pearl De Guzman thought of cosiness as something that belonged to the bedrooms she saw on western TV shows. In her country, she says, cushions, string lights, candles and other hallmarks of cosy décor just weren’t part of the popular aesthetic.When the nation went into lockdown last March, however, De Guzman, 29, decided to create her own version of the spaces she saw on Pinterest in the two-room bungalow she shares with her mom, sister and four dogs. “I really wanted a space of my own because I was really anxious about what’s happening in the world,” she says.She asked her uncle, a carpenter, to help build walls to partition off a small bedroom and office nook, and decorated the space with dried flowers artfully arranged in small vases, Polaroid-style photos from days on the beach and pastel desk organisers. She also purchased an air conditioner – an essential feature of cosiness in a region where temperatures regularly exceed 30 degrees Celsius.While De Guzman’s initial interest in creating a cosy room was partly aesthetic, she’s come to appreciate her space even more for the sense of comfort it imparts, especially as a frontline pharmacy worker during the pandemic. “Looking at it now, I think it's one of the reasons why I'm still here and I'm still coping, even with the virus,” she says.Our global interest in all things cosy – from fluffy slippers and crackling fires to twinkly lights and indoor jungles – has soared during the pandemic. Across interiors products, keywords related to cosy living jumped 46% in the UK and 11% in the US between November 2019 and November 2020, according to the trend forecasting agency WGSN. Pinterest declared “cocooning” one of its top trends for 2021, with searches for “cosy aesthetic outfits” up 100% from last year. On social media, the fascination with cosiness has gone global, making the leap from Scandinavian home décor accounts to South Korean influencers, Filipino Facebook groups and beyond.For all its popularity, cosiness is a broad concept, invoking different images depending on one’s generation, nationality and internet habits. We can try to buy it with a pair of fleece pyjamas or a fluffy rug, but really it’s a feeling – one of safety, contentment and wellbeing. Given the events of the past year, it’s an unsurprising pursuit; when our phones ping daily with notifications of death tolls, civic unrest and climate disaster, cosiness promises sanctuary. “It's really the idea of being in a space where you feel entirely comfortable and where there's a sense of ease,” says Lisa White, WGSN’s director of lifestyle and interiors.",
-      "category":"Work Life",
-      "author":"Hilary George-Parkin"
-    }
-  ],
-  "reels": [
-    {
-      "id": 1,
-      "category": "ENVIRONMENT",
-      "title": "The tiny nation waging war on plastic",
-      "thumbnail": "https://ichef.bbci.co.uk/news/800/cpsprodpb/F503/production/_116932726_plastic.jpg",
-      "video_url": "https://youtu.be/pB9CnjVI36U"
-    },
-    {
-      "id": 2,
-      "category": "MENTAL HEALTH",
-      "title": "A simple way to improve your mind",
-      "thumbnail": "https://images.unsplash.com/photo-1592895792095-85fa785192a9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-      "video_url": "https://youtu.be/SgMNqBNeFyI"
-    },
-    {
-      "id": 3,
-      "category": "FOOD",
-      "title": "The Truth about eating eggs",
-      "thumbnail": "https://images.unsplash.com/photo-1516448620398-c5f44bf9f441?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80",
-      "video_url": "https://youtu.be/GSXGyw4Sq4I"
-    },
-    {
-      "id": 4,
-      "category": "WORLD",
-      "title": "Surprising images from North Korea",
-      "thumbnail": "https://images.unsplash.com/photo-1604360898901-ddcbeafab6ee?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
-      "video_url": "https://youtu.be/HhAtTKA1hks"
-    },
-    {
-      "id": 5,
-      "category": "TRAVEL",
-      "title": "The Remote visa-free island at the top of the world",
-      "thumbnail": "https://images.unsplash.com/photo-1590153739486-208b4dbb473c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=781&q=80",
-      "video_url": "https://youtu.be/FPbZZ1qIozk"
-    },
-    {
-      "id": 6,
-      "category": "HYGIENE",
-      "title": "Why do Westerners love using toilet paper?",
-      "thumbnail": "https://images.pexels.com/photos/3962433/pexels-photo-3962433.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "video_url": "https://youtu.be/XgqCIPvhxzA"
-    }
-  ],
-  "newspost": []
+  "temp": []
 }
